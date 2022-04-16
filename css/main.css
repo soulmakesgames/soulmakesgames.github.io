@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+    font-size: 1.2em;
+    line-height: 1.9;
+    background-color: #000000!important;
+    font-family: 'Oswald', sans-serif;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+  }
+
+.brandlogo {
+    position: center;
+}
+
+#othergame {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.highlight {
+    background-color: #080808;
+}
+
+#massclustergame {
+    opacity: 100%;
+}
+
+/* Create a Parallax Effect */
+.brandlogo {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    list-style: none;
+    opacity: 50%;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+}
+
+.w3-black {
+    background-color: #000000!important;
+}
+
+footer {
+    background-color: #000000!important;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next/previous */
+.prev, .next {
+    /* cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    ;
+    /*  */
+    margin-top: -22px;
+    padding: 50px;
+    color: purple;
+    transition: 0.6s ease;
+    user-select: none;
+    /* font-weight: bold;
+    font-size: 18px;
+    
+    border-radius: 0 3px 3px 0;
+    user-select: none; */
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <title>Soulmakesgames Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet" />
+  <link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet" />
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-content" >
+
+        <div class="w3-row">
+            <h3 class="w3-center">My Games</h3>
+        </div>
+
+      <!-- Photo Grid -->
+      <div class="w3-row">
+        <div id="showcase" class="w3-hover-text-purple">
+          <li id="massclustergame" class="active" data-rel="1">
+            <div class="w3-quarter w3-hover-text-purple">
+              <img src="images/masscluster.png"  style="width:100%"/>
+            </div>
+          </li>
+        </div>
+      </div>
+
+      <div id="masscluster" class="highlight">
+        <p><a href="https://stephensoul.itch.io/masscluster" target="_blank" rel="noopener">Itch.io link to project</a></p>
+        <!--Slide show-->
+        <div class="w3-center slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertest">1 / 2</div>
+            <img src="images/screenshots/masscluster1.png" style="width:60%">
+          </div>
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertest">2 / 2</div>
+              <img src="images/screenshots/masscluster2.png" style="width:60%">
+            </div>
+            <!--Next/previous buttons-->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+        <em>What's the game goal?</em>
+        <p>&nbsp You're a ninja. You have no memory of why you are where you are. In this arcade adventure,
+          escape the Mass Cluster as it rolls its way through this dynamic world. There are 50 randomly generated levels
+          and a high score list to prove you are the Mass Cluster champion. Every 10 levels you have a timed decision to
+          make for a small upgrade. You have two choices; wager your points in an effort to get further or risk it all to
+          achieve glory. The rules are simple, but your execution is what matters.</p>
+        <em>What's the story behind the development?</em>
+        <p>&nbsp This was made for the "Horror For My Valentine" game jam. From its initial inception, I had the basics of a goal;
+          "You are a part of me" was the theme, so I thought why not make a ball that rolls forever forward, absorbing players and
+          enemies. Each entity consumed makes the ball a greater threat as player and enemy becomes a part of it.<br>After the initial
+          creation; once the jam was over, I took a step back to think about what I learned. I notably noticed a few issues with the
+          original work.</p>
+        <ol>
+          <li>> Players were confused at my initial tutorial level</li>
+          <li>> There was an unfair difficulty ramp that was poorly explained</li>
+          <li>> The game having an infinite amount of levels removed some of my leaderboard goals</li>
+        </ol>
+        <p>&nbsp Taking everything into consideration once the jam was over I took a step back and remade some aspects to better explain to the player,
+          through simpler gameplay mechanics, everything the player needed to learn without using wordy tutorials. I wanted the game to be "easy to 
+          play, difficult to master" and quick to jump in and try to get a high score without the game having a "forever length".
+        </p>
+      </div>
+      <!-- <div id="nextgame">
+        <p>OTHER PROJECTS GO HERE</p>
+      </div> -->
+      
+    <!-- End Page Content -->
+    </div>
+
+    <!-- Footer / About Section -->
+    <div class="w3-content w3-container w3-padding-64 w3-center" id="about">
+      <h3>About Me</h3>
+      <img id="brandlogo" src="images/logo.png" class="w3-image w3-padding-32" width="300" height="300">
+      <p>I grew up playing all kinds of games and it was always a dream of mine to make my own. I have a fond memory of my late father
+        chuckling when he asked me what I wanted to do with my life, asking me to consider something a little easier to break into. He
+        never meant any ill will - after all, making games at this point was a very miniscule market to break into. Especially in my
+        small province. And doubly especially so with my age at the time. <br><br>I took the challenge in strides, and me being the
+        stubborn soul I am, I took everything as a challenge and made it my goal to focus on software development for a career and a
+        hobby to ensure I could do everything I told him I would. Now that making games is as accessible as ever to anybody owning a
+        PC, this was the logical best next step. I hope you enjoy the work I put together, and feedback is always welcome, both positive
+        and negative. If you would ever like to reach out regarding anything, please feel free to reach out at
+        my <a href="mailto: soulmakesgames@gmail.com" class="w3-hover-text-purple">games' email (soulmakesgames@gmail.com)</a></p>
+      <br>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-purple">w3.css</a></p>
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+    </body>
+  </html>
