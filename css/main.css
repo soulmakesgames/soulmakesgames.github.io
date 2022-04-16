@@ -20,20 +20,21 @@ body, html {
     position: center;
 }
 
-#othergame {
+#masscluster {
     display: none;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
+#massclustergame:hover {
+    opacity: 100%!important;
+}
+
 .highlight {
     background-color: #080808;
 }
 
-#massclustergame {
-    opacity: 100%;
-}
 
 /* Create a Parallax Effect */
 .brandlogo {
